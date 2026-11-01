@@ -1,0 +1,26 @@
+{
+  "name": "parakeet-ai-prototype",
+  "version": "1.0.0",
+  "description": "Cross-platform desktop application inspired by Parakeet AI with real-time speech transcription and local LLM streaming responses.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "package": "electron-builder build"
+  },
+  "keywords": [
+    "parakeet-ai",
+    "desktop-app",
+    "speech-to-text",
+    "local-llm",
+    "ollama",
+    "streaming"
+  ],
+  "author": "Vaibhav Ghoshi <vaibhav7290119@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "electron-store": "^8.2.0"
+  },
+  "devDependencies": {
+    "electron": "^33.2.0"
+  }
+}
